@@ -1,0 +1,111 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: var(--color-bg-secondary);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--color-border);
+  box-shadow: var(--shadow-md);
+}
+
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--header-height);
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  text-decoration: none;
+  color: var(--color-text-primary);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-xl);
+  transition: all var(--transition-normal);
+}
+
+.header__logo:hover {
+  color: var(--color-primary);
+  transform: scale(1.05);
+}
+
+.header__logo-icon {
+  font-size: var(--font-size-xxl);
+  filter: drop-shadow(0 0 10px rgba(255, 107, 53, 0.3));
+}
+
+.header__logo-text {
+  font-family: "Creepster", cursive;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-lg);
+}
+
+.header__nav-link {
+  position: relative;
+  padding: var(--spacing-sm) var(--spacing-md);
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  font-weight: var(--font-weight-medium);
+  transition: all var(--transition-normal);
+  border-radius: var(--border-radius-md);
+}
+
+.header__nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: var(--color-primary);
+  transition: all var(--transition-normal);
+  transform: translateX(-50%);
+}
+
+.header__nav-link:hover {
+  color: var(--color-text-primary);
+  background: var(--color-bg-tertiary);
+}
+
+.header__nav-link:hover::before {
+  width: 80%;
+}
+
+.header__nav-link--active {
+  color: var(--color-primary);
+  background: var(--color-bg-tertiary);
+}
+
+.header__nav-link--active::before {
+  width: 80%;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .header__content {
+    padding: 0 var(--spacing-md);
+  }
+
+  .header__logo-text {
+    font-size: var(--font-size-lg);
+  }
+
+  .header__nav {
+    gap: var(--spacing-md);
+  }
+
+  .header__nav-link {
+    padding: var(--spacing-xs) var(--spacing-sm);
+    font-size: var(--font-size-sm);
+  }
+}
