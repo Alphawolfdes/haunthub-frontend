@@ -33,7 +33,7 @@
 HauntHub aggregates stories from these popular Reddit communities:
 
 - **r/nosleep** - Original horror stories that will keep you up at night
-- **r/paranormal** - Real-life paranormal experiences and encounters  
+- **r/paranormal** - Real-life paranormal experiences and encounters
 - **r/LetsNotMeet** - Scary true stories about real people
 - **r/creepy** - Disturbing content that will give you the chills
 - **r/shortscarystories** - Bite-sized horror stories under 500 words
@@ -50,17 +50,20 @@ HauntHub aggregates stories from these popular Reddit communities:
 ### Local Development
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/kingdes/haunthub-frontend.git
    cd haunthub-frontend
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Start development server**
+
    ```bash
    npm run dev
    ```
@@ -91,7 +94,7 @@ haunthub-frontend/
 ├── src/
 │   ├── components/        # Reusable UI components
 │   │   ├── Header/       # Navigation header
-│   │   ├── Footer/       # Site footer  
+│   │   ├── Footer/       # Site footer
 │   │   ├── StoryCard/    # Individual story display
 │   │   └── SearchControls/ # Search and filter UI
 │   ├── pages/            # Route components
@@ -118,13 +121,16 @@ haunthub-frontend/
 ## 🌐 API Integration
 
 ### Reddit API
+
 HauntHub uses Reddit's public JSON API to fetch stories:
+
 - **Endpoint**: `https://www.reddit.com/r/{subreddit}/{sort}.json`
 - **CORS Handling**: Automatic fallback to CORS proxy when needed
 - **Rate Limiting**: Respectful API usage with error handling
 - **Data Processing**: Clean and format Reddit response data
 
 ### Search Features
+
 - **Multi-subreddit search** across all paranormal communities
 - **Real-time filtering** by sort type and time period
 - **Pagination support** with "Load More" functionality
@@ -133,15 +139,19 @@ HauntHub uses Reddit's public JSON API to fetch stories:
 ## 🎯 Key Components
 
 ### StoryCard
+
 Displays individual Reddit stories with:
+
 - Title and content preview
-- Author and subreddit information  
+- Author and subreddit information
 - Score and comment count
 - Direct link to original Reddit post
 - Responsive hover effects
 
-### SearchControls  
+### SearchControls
+
 Advanced search interface featuring:
+
 - Text-based story search
 - Sort options (Hot, New, Top, Rising)
 - Time range filters
@@ -149,7 +159,9 @@ Advanced search interface featuring:
 - Mobile-friendly collapsible design
 
 ### useStories Hook
+
 Custom React hook managing:
+
 - API calls and error handling
 - Loading states and pagination
 - Search and filter state
@@ -160,7 +172,7 @@ Custom React hook managing:
 The app is automatically deployed to GitHub Pages using GitHub Actions when code is pushed to the main branch. The workflow:
 
 1. **Build**: Install dependencies and create production build
-2. **Test**: Verify build integrity  
+2. **Test**: Verify build integrity
 3. **Deploy**: Publish to GitHub Pages
 4. **Live**: Available at https://kingdes.github.io/haunthub-frontend/
 
@@ -174,6 +186,7 @@ The app is automatically deployed to GitHub Pages using GitHub Actions when code
 ## ⚠️ Content Advisory
 
 **Important**: Stories on HauntHub are user-generated content from Reddit and may contain:
+
 - Mature themes and scary scenarios
 - Supernatural and paranormal content
 - Real-life encounters (as reported by users)
@@ -183,7 +196,7 @@ All content belongs to original Reddit authors. Click through to Reddit to engag
 ## 🤝 Contributing
 
 1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)  
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
 3. Commit changes (`git commit -m 'Add amazing feature'`)
 4. Push to branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request

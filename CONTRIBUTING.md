@@ -5,11 +5,13 @@ Thank you for your interest in contributing to HauntHub! We welcome contribution
 ## How to Contribute
 
 ### Reporting Issues
+
 - Use GitHub Issues to report bugs or suggest features
 - Provide a clear description and steps to reproduce
 - Include screenshots if applicable
 
 ### Making Changes
+
 1. Fork the repository
 2. Create a feature branch from `main`
 3. Make your changes following our coding standards
@@ -17,6 +19,7 @@ Thank you for your interest in contributing to HauntHub! We welcome contribution
 5. Submit a Pull Request
 
 ### Coding Standards
+
 - Use BEM methodology for CSS classes
 - Follow React best practices and hooks patterns
 - Maintain responsive design principles
@@ -24,6 +27,7 @@ Thank you for your interest in contributing to HauntHub! We welcome contribution
 - Keep components focused and reusable
 
 ### Testing
+
 - Test on multiple browsers and devices
 - Verify all features work as expected
 - Check that the build process completes successfully
