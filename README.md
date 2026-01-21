@@ -9,6 +9,11 @@
   [![Live Demo](https://img.shields.io/badge/Demo-Live-brightgreen)](https://kingdes.github.io/haunthub-frontend/)
 </div>
 
+## Project Pitch Video
+
+Check out [this video](https://drive.google.com/file/d/1l3p2SCV87NrmIVnVvhVXlmusVLIc2xIJ/view?usp=drive_link), where I describe my
+project and some challenges I faced while building it.
+
 ## 🌟 Features
 
 - 🔍 **Smart Search**: Advanced search functionality across multiple paranormal subreddits
