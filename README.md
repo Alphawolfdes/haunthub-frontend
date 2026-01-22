@@ -5,8 +5,8 @@
   
   **Your gateway to spine-chilling paranormal stories from Reddit**
   
-  [![Deployment Status](https://github.com/kingdes/haunthub-frontend/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)](https://github.com/kingdes/haunthub-frontend/actions)
-  [![Live Demo](https://img.shields.io/badge/Demo-Live-brightgreen)](https://kingdes.github.io/haunthub-frontend/)
+  [![Deployment Status](https://github.com/Alphawolfdes/haunthub-frontend/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)](https://github.com/Alphawolfdes/haunthub-frontend/actions)
+  [![Live Demo](https://img.shields.io/badge/Demo-Live-brightgreen)](https://alphawolfdes.github.io/haunthub-frontend/)
 </div>
 
 ## Project Pitch Video
@@ -57,7 +57,7 @@ HauntHub aggregates stories from these popular Reddit communities:
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/kingdes/haunthub-frontend.git
+   git clone https://github.com/Alphawolfdes/haunthub-frontend.git
    cd haunthub-frontend
    ```
 
@@ -179,7 +179,7 @@ The app is automatically deployed to GitHub Pages using GitHub Actions when code
 1. **Build**: Install dependencies and create production build
 2. **Test**: Verify build integrity
 3. **Deploy**: Publish to GitHub Pages
-4. **Live**: Available at https://kingdes.github.io/haunthub-frontend/
+4. **Live**: Available at https://alphawolfdes.github.io/haunthub-frontend/
 
 ## 📱 Browser Support
 
